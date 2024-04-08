@@ -1,0 +1,1 @@
+08.04.2024 10:00:03.350 *INFO* [[0:0:0:0:0:0:0:1] [1712563203348] GET /demo/home/content2.hello.html HTTP/1.1] demo.servlet.ByResourceTypeServlet Hello World Servlet

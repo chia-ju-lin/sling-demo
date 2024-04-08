@@ -1,0 +1,6 @@
+// Configuration created by Apache Sling File Installer
+{
+  "org.apache.sling.scripting.cache.additional_extensions":[
+    "js"
+  ]
+}

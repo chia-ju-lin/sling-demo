@@ -1,0 +1,6 @@
+// Configuration created by Apache Sling File Installer
+{
+  "user.mapping":[
+    "org.apache.sling.jcr.maintenance:sling-versionmgr=[sling-versionmgr]"
+  ]
+}

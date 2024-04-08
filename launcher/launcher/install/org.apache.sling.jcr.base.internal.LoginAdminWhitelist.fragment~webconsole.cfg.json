@@ -1,0 +1,9 @@
+// Configuration created by Apache Sling File Installer
+{
+  "whitelist.bundles":[
+    "org.apache.sling.extensions.webconsolesecurityprovider",
+    "org.apache.sling.jcr.webconsole",
+    "org.apache.sling.serviceuser.webconsole"
+  ],
+  "whitelist.name":"webconsole"
+}

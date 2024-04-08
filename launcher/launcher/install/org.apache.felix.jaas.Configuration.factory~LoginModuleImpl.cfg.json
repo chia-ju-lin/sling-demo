@@ -1,0 +1,5 @@
+// Configuration created by Apache Sling File Installer
+{
+  "jaas.controlFlag":"required",
+  "jaas.classname":"org.apache.jackrabbit.oak.security.authentication.user.LoginModuleImpl"
+}

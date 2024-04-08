@@ -1,0 +1,9 @@
+// Configuration created by Apache Sling File Installer
+{
+  "whitelist.bundles":[
+    "com.composum.nodes.commons",
+    "com.composum.nodes.pckgmgr",
+    "com.composum.nodes.usermgr"
+  ],
+  "whitelist.name":"composum"
+}

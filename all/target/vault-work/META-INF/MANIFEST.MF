@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.4.0
+Build-Jdk-Spec: 11
+Implementation-Title: demo - All
+Implementation-Version: 1.0-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: demo:demo-all:1.0-SNAPSHOT
+Content-Package-Description: demo - demo: All-in-one deployment content 
+ package
+Content-Package-Roots: /apps/demo/install/core-1.0-SNAPSHOT.jar,/etc/pac
+ kages/demo/ui.apps-1.0-SNAPSHOT.zip
+

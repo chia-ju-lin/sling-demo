@@ -1,0 +1,4 @@
+// Configuration created by Apache Sling File Installer
+{
+  "org.apache.jackrabbit.oak.authentication.configSpiName":"FelixJaasProvider"
+}

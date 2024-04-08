@@ -1,0 +1,5 @@
+// Configuration created by Apache Sling File Installer
+{
+  "jaas.defaultRealmName":"jackrabbit.oak",
+  "jaas.configProviderName":"FelixJaasProvider"
+}

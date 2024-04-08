@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.4.0
+Build-Jdk-Spec: 11
+Implementation-Title: demo - UI Apps
+Implementation-Version: 1.0-SNAPSHOT
+Content-Package-Type: mixed
+Content-Package-Id: demo:ui.apps:1.0-SNAPSHOT
+Content-Package-Description: This is an empty JCR Package where the JCR 
+ Content
+         can be deployed with.
+Content-Package-Roots: /apps/demo,/content/demo
+

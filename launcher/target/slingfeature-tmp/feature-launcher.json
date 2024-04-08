@@ -1,0 +1,14 @@
+{
+  "id":"demo:launcher:slingosgifeature:launcher:1.0-SNAPSHOT",
+  "title":"demo - Launcher",
+  "description":"This is a Module which contains a sample feature model build, built on\n        top of the Sling Starter and adding this project's artifacts.",
+  "bundles":[
+    {
+      "id":"demo:core:1.0-SNAPSHOT",
+      "start-order":"20"
+    }
+  ],
+  "content-packages:ARTIFACTS|true":[
+    "demo:ui.apps:zip:1.0-SNAPSHOT"
+  ]
+}

@@ -1,0 +1,6 @@
+// Configuration created by Apache Sling File Installer
+{
+  "jaas.controlFlag":"optional",
+  "jaas.classname":"org.apache.jackrabbit.oak.spi.security.authentication.GuestLoginModule",
+  "jaas.ranking:Integer":300
+}

@@ -1,0 +1,6 @@
+// Configuration created by Apache Sling File Installer
+{
+  "name":"org-apache-sling-event",
+  "maxPoolSize:Integer":1,
+  "minPoolSize:Integer":5
+}

@@ -1,0 +1,720 @@
+05.04.2024 19:12:34.729 *INFO* [FelixStartLevel] org.eclipse.jetty.util.log Logging initialized @2177ms to org.eclipse.jetty.util.log.Slf4jLog
+05.04.2024 19:12:34.772 *INFO* [FelixStartLevel] org.eclipse.jetty.server.Server jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 11+28
+05.04.2024 19:12:34.796 *INFO* [FelixStartLevel] org.eclipse.jetty.server.session DefaultSessionIdManager workerName=node0
+05.04.2024 19:12:34.796 *INFO* [FelixStartLevel] org.eclipse.jetty.server.session No SessionScavenger set, using defaults
+05.04.2024 19:12:34.798 *INFO* [FelixStartLevel] org.eclipse.jetty.server.session node0 Scavenging every 600000ms
+05.04.2024 19:12:34.805 *INFO* [FelixStartLevel] org.eclipse.jetty.server.handler.ContextHandler Started o.e.j.s.ServletContextHandler@106bfcf8{/,null,AVAILABLE}
+05.04.2024 19:12:34.805 *INFO* [FelixStartLevel] org.eclipse.jetty.server.Server Started @2254ms
+05.04.2024 19:12:34.805 *INFO* [FelixStartLevel] org.eclipse.jetty.server.session node0 Scavenging every 600000ms
+05.04.2024 19:12:34.842 *INFO* [FelixStartLevel] org.eclipse.jetty.server.AbstractConnector Started ServerConnector@768a7752{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+05.04.2024 19:12:35.329 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.executor.HealthCheckExecutorThreadPool Created HC Thread Pool: threadPoolSize=25
+05.04.2024 19:12:35.331 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.scheduling.CronJobFactory Quartz is NOT available for scheduling cron jobs
+05.04.2024 19:12:35.335 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.executor.HealthCheckExecutorImpl HealthCheckExecutor active at start level 5
+05.04.2024 19:12:35.353 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.filter.ServiceUnavailableFilter ServiceUnavailableFilter active (start level 5)
+05.04.2024 19:12:35.359 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Health Check Servlet Configuration: servletPath=/system/health, defaultStatusMapping={OK=200, WARN=200, TEMPORARILY_UNAVAILABLE=503, CRITICAL=503, HEALTH_CHECK_ERROR=500}, servletDefaultTimeout=-1, servletDefaultTags=[], defaultCombineTagsWithOr=true, defaultFormat=html, allowedFormats=[html, json, jsonp, txt, verbose.txt], corsAccessControlAllowOrigin=*
+05.04.2024 19:12:35.360 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Registering HC servlet HealthCheckExecutorServlet to path /system/health
+05.04.2024 19:12:35.360 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Registering HC servlet HealthCheckExecutorServlet to path /system/health.html
+05.04.2024 19:12:35.360 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Registering HC servlet HealthCheckExecutorServlet to path /system/health.json
+05.04.2024 19:12:35.360 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Registering HC servlet HealthCheckExecutorServlet to path /system/health.jsonp
+05.04.2024 19:12:35.360 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Registering HC servlet HealthCheckExecutorServlet to path /system/health.txt
+05.04.2024 19:12:35.360 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Registering HC servlet HealthCheckExecutorServlet to path /system/health.verbose.txt
+05.04.2024 19:12:35.785 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPoolManager Started Apache Sling Thread Pool Manager
+05.04.2024 19:12:35.950 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory Using MetricsStatisticsProvider
+05.04.2024 19:12:35.968 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider activate: maxItems=50, maxPathDepth=9, enabled=true
+05.04.2024 19:12:36.005 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to register a SecurityProvider...
+05.04.2024 19:12:36.005 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no BundleContext is available
+05.04.2024 19:12:36.005 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to register a SecurityProvider...
+05.04.2024 19:12:36.005 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no BundleContext is available
+05.04.2024 19:12:36.005 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to register a SecurityProvider...
+05.04.2024 19:12:36.005 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no BundleContext is available
+05.04.2024 19:12:36.005 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to register a SecurityProvider...
+05.04.2024 19:12:36.005 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no BundleContext is available
+05.04.2024 19:12:36.005 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to register a SecurityProvider...
+05.04.2024 19:12:36.005 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no BundleContext is available
+05.04.2024 19:12:36.006 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to register a SecurityProvider...
+05.04.2024 19:12:36.006 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: preconditions are not satisfied: Preconditions(preconditions = [org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl, org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider, org.apache.jackrabbit.oak.security.user.UserAuthenticationFactoryImpl, org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl, org.apache.jackrabbit.oak.spi.security.authorization.principalbased.impl.PrincipalBasedAuthorizationConfiguration, org.apache.jackrabbit.oak.security.principal.PrincipalConfigurationImpl, org.apache.jackrabbit.oak.security.authorization.restriction.RestrictionProviderImpl], candidates = [org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl, org.apache.jackrabbit.oak.security.user.UserAuthenticationFactoryImpl, org.apache.jackrabbit.oak.security.principal.PrincipalConfigurationImpl, org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName, org.apache.jackrabbit.oak.security.authorization.restriction.RestrictionProviderImpl])
+05.04.2024 19:12:36.034 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to register a SecurityProvider...
+05.04.2024 19:12:36.034 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: preconditions are not satisfied: Preconditions(preconditions = [org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl, org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider, org.apache.jackrabbit.oak.security.user.UserAuthenticationFactoryImpl, org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl, org.apache.jackrabbit.oak.spi.security.authorization.principalbased.impl.PrincipalBasedAuthorizationConfiguration, org.apache.jackrabbit.oak.security.principal.PrincipalConfigurationImpl, org.apache.jackrabbit.oak.security.authorization.restriction.RestrictionProviderImpl], candidates = [org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl, org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider, org.apache.jackrabbit.oak.security.user.UserAuthenticationFactoryImpl, org.apache.jackrabbit.oak.security.principal.PrincipalConfigurationImpl, org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName, org.apache.jackrabbit.oak.security.authorization.restriction.RestrictionProviderImpl])
+05.04.2024 19:12:36.048 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.composite.MountInfoProviderService No mount config provided. Mounting would be disabled
+05.04.2024 19:12:36.058 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to register a SecurityProvider...
+05.04.2024 19:12:36.059 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: preconditions are not satisfied: Preconditions(preconditions = [org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl, org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider, org.apache.jackrabbit.oak.security.user.UserAuthenticationFactoryImpl, org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl, org.apache.jackrabbit.oak.spi.security.authorization.principalbased.impl.PrincipalBasedAuthorizationConfiguration, org.apache.jackrabbit.oak.security.principal.PrincipalConfigurationImpl, org.apache.jackrabbit.oak.security.authorization.restriction.RestrictionProviderImpl], candidates = [org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl, org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider, org.apache.jackrabbit.oak.security.user.UserAuthenticationFactoryImpl, org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl, org.apache.jackrabbit.oak.security.principal.PrincipalConfigurationImpl, org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName, org.apache.jackrabbit.oak.security.authorization.restriction.RestrictionProviderImpl])
+05.04.2024 19:12:36.081 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to register a SecurityProvider...
+05.04.2024 19:12:36.081 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: preconditions are not satisfied: Preconditions(preconditions = [org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl, org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider, org.apache.jackrabbit.oak.security.user.UserAuthenticationFactoryImpl, org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl, org.apache.jackrabbit.oak.spi.security.authorization.principalbased.impl.PrincipalBasedAuthorizationConfiguration, org.apache.jackrabbit.oak.security.principal.PrincipalConfigurationImpl, org.apache.jackrabbit.oak.security.authorization.restriction.RestrictionProviderImpl], candidates = [org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl, org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider, org.apache.jackrabbit.oak.security.user.UserAuthenticationFactoryImpl, org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl, org.apache.jackrabbit.oak.security.principal.PrincipalConfigurationImpl, org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName, org.apache.jackrabbit.oak.security.authorization.restriction.RestrictionProviderImpl])
+05.04.2024 19:12:36.082 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to register a SecurityProvider...
+05.04.2024 19:12:36.090 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration SecurityProvider instance registered
+05.04.2024 19:12:36.146 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.segment.file.FileStore Creating file store FileStoreBuilder{version=1.42.0, directory=C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\repository\segmentstore, blobStore=null, binariesInlineThreshold=16512, maxFileSize=256, segmentCacheSize=256, stringCacheSize=256, templateCacheSize=64, stringDeduplicationCacheSize=15000, templateDeduplicationCacheSize=3000, nodeDeduplicationCacheSize=1048576, memoryMapping=true, offHeapAccess=false, gcOptions=SegmentGCOptions{paused=false, estimationDisabled=false, gcSizeDeltaEstimation=1073741824, retryCount=5, forceTimeout=60, retainedGenerations=2, gcType=FULL, compactorType=CHECKPOINT_COMPACTOR}}
+05.04.2024 19:12:36.218 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.segment.file.FileStore TarMK opened at C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\repository\segmentstore, mmap=true, offHeapAccess=false, size=64.3 MB (64267264 bytes)
+05.04.2024 19:12:36.240 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.segment.SegmentNodeStore$SegmentNodeStoreBuilder Creating segment node store SegmentNodeStoreBuilder{blobStore=inline}
+05.04.2024 19:12:36.245 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.segment.scheduler.LockBasedScheduler Initializing SegmentNodeStore with the commitFairLock option enabled.
+05.04.2024 19:12:36.275 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.segment.SegmentNodeStoreService Primary SegmentNodeStore initialized
+05.04.2024 19:12:36.364 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService Extracted text caching enabled with maxSize 20 MB, expiry time 300 secs
+05.04.2024 19:12:36.364 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService Prefetching of index files enabled. Index would be opened after copying all new files locally
+05.04.2024 19:12:36.384 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService Enabling CopyOnRead support. Index files would be copied under C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\repository\index
+05.04.2024 19:12:36.387 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.hybrid.NRTIndexFactory Refresh delta set to 1 secs
+05.04.2024 19:12:36.388 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.search.BadIndexTracker Bad Index recheck interval set to 900 seconds
+05.04.2024 19:12:36.389 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService Active blob collector set to NOOP. enabled: true seconds; blobStore: null
+05.04.2024 19:12:36.393 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService Registering the LuceneIndexProvider as a BackgroundObserver
+05.04.2024 19:12:36.406 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService Configured JournalPropertyBuilder with max size 5000 and backed by BackgroundObserver with queue size 1000
+05.04.2024 19:12:36.408 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService Hybrid indexing enabled for configured indexes with queue size of 10000
+05.04.2024 19:12:36.412 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService Property index cleaner configured to run every [600] seconds
+05.04.2024 19:12:36.419 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService Enabling CopyOnWrite support. Index files would be copied under C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\repository\index
+05.04.2024 19:12:36.421 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService Lucene FileSystem Statistics calculator configured to run every [300] seconds
+05.04.2024 19:12:36.427 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Initializing thread pool [default]  ...
+05.04.2024 19:12:36.430 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.ThreadLocalCleaner Validating reflective access is permitted... 
+05.04.2024 19:12:36.430 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.ThreadLocalCleaner Accessed thread locals of current thread, found 512
+05.04.2024 19:12:36.430 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Thread pool [default] initialized.
+05.04.2024 19:12:36.446 *INFO* [FelixStartLevel] org.apache.sling.jcr.base.internal.LoginAdminWhitelist WhitelistFragment added 'sling: [org.apache.sling.servlets.post, org.apache.sling.discovery.oak, org.apache.sling.i18n, org.apache.sling.discovery.commons, org.apache.sling.jcr.oak.server, org.apache.sling.jcr.contentloader, org.apache.sling.jcr.repoinit, org.apache.sling.jcr.base, org.apache.sling.jcr.jackrabbit.usermanager, org.apache.sling.discovery.base]'
+05.04.2024 19:12:36.446 *INFO* [FelixStartLevel] org.apache.sling.jcr.base.internal.LoginAdminWhitelist WhitelistFragment added 'composum: [com.composum.nodes.pckgmgr, com.composum.nodes.usermgr, com.composum.nodes.commons]'
+05.04.2024 19:12:36.446 *INFO* [FelixStartLevel] org.apache.sling.jcr.base.internal.LoginAdminWhitelist WhitelistFragment added 'webconsole: [org.apache.sling.serviceuser.webconsole, org.apache.sling.jcr.webconsole, org.apache.sling.extensions.webconsolesecurityprovider]'
+05.04.2024 19:12:36.490 *INFO* [FelixStartLevel] org.apache.sling.auth.form.impl.jaas.JaasHelper Registered FormLoginModuleFactory
+05.04.2024 19:12:36.490 *INFO* [FelixStartLevel] org.apache.sling.auth.form.impl.FormAuthenticationHandler Login Form URL /system/sling/form/login
+05.04.2024 19:12:36.490 *INFO* [FelixStartLevel] org.apache.sling.auth.form.impl.FormAuthenticationHandler Using Cookie store with name sling.formauth
+05.04.2024 19:12:36.490 *INFO* [FelixStartLevel] org.apache.sling.auth.form.impl.FormAuthenticationHandler Setting Auth Data attribute name sling.formauth
+05.04.2024 19:12:36.490 *INFO* [FelixStartLevel] org.apache.sling.auth.form.impl.FormAuthenticationHandler Setting session timeout 30 minutes
+05.04.2024 19:12:36.491 *INFO* [FelixStartLevel] org.apache.sling.auth.form.impl.FormAuthenticationHandler Storing tokens in C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\framework\bundle123\data\cookie-tokens.bin
+05.04.2024 19:12:36.494 *INFO* [FelixStartLevel] org.apache.sling.auth.form.impl.TokenStore Seeding the secure random number generator can take up to several minutes on some operating systems depending upon environment factors. If this is a problem for you, set the system property 'java.security.egd' to 'file:/dev/./urandom' or enable the Fast Seed Generator in the Web Console
+05.04.2024 19:12:36.611 *INFO* [Apache Sling Repository Startup Thread #1] org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndex oak.lucene.oldFacetProvider = false
+05.04.2024 19:12:36.611 *INFO* [Apache Sling Repository Startup Thread #1] org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndex oak.lucene.cacheFacetResults = true
+05.04.2024 19:12:36.803 *INFO* [Apache Sling Repository Startup Thread #1] org.apache.sling.jcr.base.internal.RepositoryPrinterProvider Providing new configuration printer for org.apache.sling.jcr.oak.server.internal.OakSlingRepository@7518ff06 : {osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.apache.sling.jcr.oak.server.internal.OakSlingRepositoryManager, name=oak-sling-repository, service.vendor=The Apache Software Foundation, admin.login.enabled=true, objectClass=[Ljava.lang.String;@43487d28, service.scope=bundle, oak.observation.queue.length=1000, service.bundleid=117, component.id=136, service.description=Apache Sling JCR Oak Repository Manager, defaultWorkspace=default, oak.query.fastResultSize=true, service.id=420, oak.observation.limitCommitRate=false}
+05.04.2024 19:12:36.840 *INFO* [FelixStartLevel] org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+05.04.2024 19:12:36.840 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+05.04.2024 19:12:36.842 *INFO* [FelixStartLevel] org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+05.04.2024 19:12:36.843 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'ApacheSlingdefault' with instanceId 'Fri_Apr_05_19:12:36_CEST_20242068135552'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.apache.sling.commons.scheduler.impl.QuartzThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+05.04.2024 19:12:36.843 *INFO* [FelixStartLevel] org.quartz.impl.DirectSchedulerFactory Quartz scheduler 'ApacheSlingdefault
+05.04.2024 19:12:36.843 *INFO* [FelixStartLevel] org.quartz.impl.DirectSchedulerFactory Quartz scheduler version: 2.3.2
+05.04.2024 19:12:36.843 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Scheduler ApacheSlingdefault_$_Fri_Apr_05_19:12:36_CEST_20242068135552 started.
+05.04.2024 19:12:36.853 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Initializing thread pool [oak]  ...
+05.04.2024 19:12:36.853 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.ThreadLocalCleaner Validating reflective access is permitted... 
+05.04.2024 19:12:36.853 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.ThreadLocalCleaner Accessed thread locals of current thread, found 1024
+05.04.2024 19:12:36.853 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Thread pool [oak] initialized.
+05.04.2024 19:12:36.860 *INFO* [FelixStartLevel] org.quartz.core.SchedulerSignalerImpl Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+05.04.2024 19:12:36.860 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Quartz Scheduler v.2.3.2 created.
+05.04.2024 19:12:36.860 *INFO* [FelixStartLevel] org.quartz.simpl.RAMJobStore RAMJobStore initialized.
+05.04.2024 19:12:36.860 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Scheduler meta-data: Quartz Scheduler (v2.3.2) 'ApacheSlingoak' with instanceId 'Fri_Apr_05_19:12:36_CEST_2024854229939'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.apache.sling.commons.scheduler.impl.QuartzThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+05.04.2024 19:12:36.860 *INFO* [FelixStartLevel] org.quartz.impl.DirectSchedulerFactory Quartz scheduler 'ApacheSlingoak
+05.04.2024 19:12:36.860 *INFO* [FelixStartLevel] org.quartz.impl.DirectSchedulerFactory Quartz scheduler version: 2.3.2
+05.04.2024 19:12:36.860 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Scheduler ApacheSlingoak_$_Fri_Apr_05_19:12:36_CEST_2024854229939 started.
+05.04.2024 19:12:36.901 *INFO* [FelixStartLevel] org.apache.sling.commons.mime.internal.MimeTypeServiceImpl registerMimeType: Ignoring mapping wmz=application/x-msmetafile: Mapping wmz=application/x-ms-wmz already exists
+05.04.2024 19:12:36.903 *INFO* [FelixStartLevel] org.apache.sling.commons.mime.internal.MimeTypeServiceImpl registerMimeType: Ignoring mapping sub=text/vnd.dvb.subtitle: Mapping sub=image/vnd.dvb.subtitle already exists
+05.04.2024 19:12:36.911 *INFO* [FelixStartLevel] org.apache.sling.engine.impl.SlingMainServlet ApacheSling/2.8 (jetty/9.4.44.v20210927, OpenJDK 64-Bit Server VM 11, Windows 10 10.0 amd64) ready to serve requests
+05.04.2024 19:12:36.926 *INFO* [FelixStartLevel] org.apache.sling.engine.parameters Default Character Encoding: ISO-8859-1
+05.04.2024 19:12:36.926 *INFO* [FelixStartLevel] org.apache.sling.engine.parameters Parameter Number Limit: 10000
+05.04.2024 19:12:36.926 *INFO* [FelixStartLevel] org.apache.sling.engine.parameters Maximum Request Size: -1
+05.04.2024 19:12:36.926 *INFO* [FelixStartLevel] org.apache.sling.engine.parameters Temporary File Location: null
+05.04.2024 19:12:36.926 *INFO* [FelixStartLevel] org.apache.sling.engine.parameters Maximum File Size: -1
+05.04.2024 19:12:36.926 *INFO* [FelixStartLevel] org.apache.sling.engine.parameters Tempory File Creation Threshold: 256000
+05.04.2024 19:12:36.926 *INFO* [FelixStartLevel] org.apache.sling.engine.parameters Check for additional container parameters: false
+05.04.2024 19:12:37.038 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.RepositoryInitializerFactory Executing 33 repoinit operations
+05.04.2024 19:12:37.066 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /content
+05.04.2024 19:12:37.066 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding ACL 'allow' entry '[jcr:read]' for [everyone] on [/content]
+05.04.2024 19:12:37.088 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Not adding [LocalAccessControlEntry# principal everyone principal, privileges: [jcr:read], isAllow : true] to path /content since an equivalent access control entry already exists
+05.04.2024 19:12:37.088 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding principal-based access control entry for sling-readall
+05.04.2024 19:12:37.099 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-readall and effective path / 
+05.04.2024 19:12:37.099 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /apps
+05.04.2024 19:12:37.100 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /apps/sling
+05.04.2024 19:12:37.100 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /apps/sling/xss
+05.04.2024 19:12:37.101 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding principal-based access control entry for sling-xss
+05.04.2024 19:12:37.103 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-xss and effective path /apps/sling/xss 
+05.04.2024 19:12:37.103 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /apps
+05.04.2024 19:12:37.103 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /apps/sling
+05.04.2024 19:12:37.104 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /apps/sling/install
+05.04.2024 19:12:37.104 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding principal-based access control entry for sling-jcr-install
+05.04.2024 19:12:37.106 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-jcr-install and effective path /apps/sling/install 
+05.04.2024 19:12:37.106 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding principal-based access control entry for sling-package-install
+05.04.2024 19:12:37.108 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-package-install and effective path / 
+05.04.2024 19:12:37.108 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-package-install and effective path null 
+05.04.2024 19:12:37.108 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /libs
+05.04.2024 19:12:37.108 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /apps
+05.04.2024 19:12:37.108 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding principal-based access control entry for sling-search-path-reader
+05.04.2024 19:12:37.110 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-search-path-reader and effective path /libs 
+05.04.2024 19:12:37.110 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-search-path-reader and effective path /apps 
+05.04.2024 19:12:37.110 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding principal-based access control entry for sling-jcr-content-loader
+05.04.2024 19:12:37.112 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-jcr-content-loader and effective path / 
+05.04.2024 19:12:37.112 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding principal-based access control entry for sling-jcr-usermanager
+05.04.2024 19:12:37.113 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-jcr-usermanager and effective path /home 
+05.04.2024 19:12:37.113 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /etc
+05.04.2024 19:12:37.113 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /etc/map
+05.04.2024 19:12:37.114 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /etc
+05.04.2024 19:12:37.114 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /etc/map
+05.04.2024 19:12:37.114 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /etc/map/http
+05.04.2024 19:12:37.114 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /conf
+05.04.2024 19:12:37.114 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /var
+05.04.2024 19:12:37.114 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /var/discovery
+05.04.2024 19:12:37.114 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /var
+05.04.2024 19:12:37.114 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /var/discovery
+05.04.2024 19:12:37.114 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /var/discovery/oak
+05.04.2024 19:12:37.114 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding principal-based access control entry for sling-discovery
+05.04.2024 19:12:37.116 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-discovery and effective path /var/discovery 
+05.04.2024 19:12:37.116 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /var
+05.04.2024 19:12:37.116 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /var
+05.04.2024 19:12:37.117 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Path already exists, nothing to do (and not checking its primary type for now): /var/eventing
+05.04.2024 19:12:37.117 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding principal-based access control entry for sling-event
+05.04.2024 19:12:37.119 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-event and effective path /var/eventing 
+05.04.2024 19:12:37.119 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclVisitor Adding principal-based access control entry for sling-versionmgr
+05.04.2024 19:12:37.120 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-versionmgr and effective path / 
+05.04.2024 19:12:37.121 *INFO* [FelixStartLevel] org.apache.sling.jcr.repoinit.impl.AclUtil Equivalent principal-based entry already exists for principal sling-versionmgr and effective path /jcr:system/jcr:versionStorage 
+05.04.2024 19:12:37.198 *INFO* [FelixStartLevel] org.apache.sling.discovery.impl.support.MetricReporter activate: done.
+05.04.2024 19:12:37.211 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Initializing thread pool [ThreadPool-a87dbd55-e539-45cb-97dd-481588927885 (Apache Sling Job Thread Pool)]  ...
+05.04.2024 19:12:37.211 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.ThreadLocalCleaner Validating reflective access is permitted... 
+05.04.2024 19:12:37.211 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.ThreadLocalCleaner Accessed thread locals of current thread, found 1024
+05.04.2024 19:12:37.211 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Thread pool [ThreadPool-a87dbd55-e539-45cb-97dd-481588927885 (Apache Sling Job Thread Pool)] initialized.
+05.04.2024 19:12:37.554 *INFO* [FelixStartLevel] org.apache.sling.resourceresolver.impl.mapping.MapEntries Registering for [Path [path=/]]
+05.04.2024 19:12:37.576 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ResourceBundleMessageResolver setting resource bundle provider: org.apache.sling.i18n.impl.JcrResourceBundleProvider@361fa51e
+05.04.2024 19:12:37.579 *INFO* [sling-default-1-ResourceBundleProvider: reload all resource bundles] org.apache.sling.i18n.impl.JcrResourceBundleProvider Reloading all resource bundles
+05.04.2024 19:12:37.608 *INFO* [FelixStartLevel] org.apache.sling.event.impl.jobs.queues.QueueManager Apache Sling Queue Manager starting on instance 06e4fd87-b3a9-44db-b63c-80df069fa41d
+05.04.2024 19:12:37.608 *INFO* [FelixStartLevel] org.apache.sling.event.impl.jobs.queues.QueueManager Apache Sling Queue Manager started on instance 06e4fd87-b3a9-44db-b63c-80df069fa41d
+05.04.2024 19:12:37.618 *INFO* [FelixStartLevel] org.apache.sling.event.impl.jobs.JobManagerImpl Apache Sling Job Manager started on instance 06e4fd87-b3a9-44db-b63c-80df069fa41d
+05.04.2024 19:12:37.624 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Initializing thread pool [org-apache-sling-event]  ...
+05.04.2024 19:12:37.626 *WARN* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Unsupported JRE, cannot register ThreadPoolExecutorCleaningThreadLocals due to 'null', fall back to regular ThreadPoolExecutor
+java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1293)
+	at org.apache.sling.commons.threads.impl.ThreadPoolExecutorCleaningThreadLocals.<init>(ThreadPoolExecutorCleaningThreadLocals.java:50) [org.apache.sling.commons.threads:3.2.22]
+	at org.apache.sling.commons.threads.impl.DefaultThreadPool.<init>(DefaultThreadPool.java:150) [org.apache.sling.commons.threads:3.2.22]
+	at org.apache.sling.commons.threads.impl.DefaultThreadPoolManager$Entry.incUsage(DefaultThreadPoolManager.java:371) [org.apache.sling.commons.threads:3.2.22]
+	at org.apache.sling.commons.threads.impl.DefaultThreadPoolManager.get(DefaultThreadPoolManager.java:143) [org.apache.sling.commons.threads:3.2.22]
+	at org.apache.sling.commons.scheduler.impl.SchedulerProxy.<init>(SchedulerProxy.java:65) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.QuartzScheduler.scheduleJob(QuartzScheduler.java:588) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.QuartzScheduler.schedule(QuartzScheduler.java:526) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.WhiteboardHandler.scheduleJob(WhiteboardHandler.java:271) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.WhiteboardHandler.trySchedulePeriod(WhiteboardHandler.java:229) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.WhiteboardHandler.register(WhiteboardHandler.java:189) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.WhiteboardHandler.registerRunnable(WhiteboardHandler.java:146) [org.apache.sling.commons.scheduler:2.7.12]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invokeMethod(BaseMethod.java:245) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.access$500(BaseMethod.java:41) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod$Resolved.invoke(BaseMethod.java:687) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invoke(BaseMethod.java:531) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.inject.methods.BindMethod.invoke(BindMethod.java:42) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager.doInvokeBindMethod(DependencyManager.java:2086) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager.invokeBindMethod(DependencyManager.java:2061) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.invokeBindMethod(SingleComponentManager.java:443) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:336) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:304) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1274) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1225) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1274) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1225) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1274) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1225) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1274) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1225) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.apache.sling.resourceresolver.impl.ResourceResolverFactoryActivator.registerFactory(ResourceResolverFactoryActivator.java:528) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.ResourceResolverFactoryActivator.checkFactoryPreconditions(ResourceResolverFactoryActivator.java:591) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.ResourceResolverFactoryActivator.access$100(ResourceResolverFactoryActivator.java:69) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.ResourceResolverFactoryActivator$1.providerAdded(ResourceResolverFactoryActivator.java:425) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.providers.ResourceProviderTracker.register(ResourceProviderTracker.java:217) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.providers.ResourceProviderTracker.access$200(ResourceProviderTracker.java:59) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.providers.ResourceProviderTracker$1.addingService(ResourceProviderTracker.java:130) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.providers.ResourceProviderTracker$1.addingService(ResourceProviderTracker.java:106) [org.apache.sling.resourceresolver:1.8.4]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:944)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:872)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:904)
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enableInternal(AbstractComponentManager.java:674) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enable(AbstractComponentManager.java:437) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ConfigurableComponentHolder.enableComponents(ConfigurableComponentHolder.java:671) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator.initialEnable(BundleComponentActivator.java:310) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.Activator.loadComponents(Activator.java:592) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.Activator.access$200(Activator.java:73) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.Activator$ScrExtension.start(Activator.java:459) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.AbstractExtender.createExtension(AbstractExtender.java:196) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.AbstractExtender.modifiedBundle(AbstractExtender.java:169) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.AbstractExtender.modifiedBundle(AbstractExtender.java:49) [org.apache.felix.scr:2.2.0]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:488)
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:420)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:232)
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:450)
+	at org.apache.felix.framework.EventDispatcher.invokeBundleListenerCallback(EventDispatcher.java:915)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:834)
+	at org.apache.felix.framework.EventDispatcher.fireBundleEvent(EventDispatcher.java:516)
+	at org.apache.felix.framework.Felix.fireBundleEvent(Felix.java:4847)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2363)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1566)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:308)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+05.04.2024 19:12:37.627 *ERROR* [FelixStartLevel] org.apache.sling.commons.scheduler.impl.WhiteboardHandler Scheduling service [org.apache.sling.event.jobs.JobManager, org.osgi.service.event.EventHandler, java.lang.Runnable] failed.
+05.04.2024 19:12:37.628 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Initializing thread pool [org-apache-sling-event]  ...
+05.04.2024 19:12:37.628 *WARN* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Unsupported JRE, cannot register ThreadPoolExecutorCleaningThreadLocals due to 'null', fall back to regular ThreadPoolExecutor
+java.lang.IllegalArgumentException: null
+	at java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1293)
+	at org.apache.sling.commons.threads.impl.ThreadPoolExecutorCleaningThreadLocals.<init>(ThreadPoolExecutorCleaningThreadLocals.java:50) [org.apache.sling.commons.threads:3.2.22]
+	at org.apache.sling.commons.threads.impl.DefaultThreadPool.<init>(DefaultThreadPool.java:150) [org.apache.sling.commons.threads:3.2.22]
+	at org.apache.sling.commons.threads.impl.DefaultThreadPoolManager$Entry.incUsage(DefaultThreadPoolManager.java:371) [org.apache.sling.commons.threads:3.2.22]
+	at org.apache.sling.commons.threads.impl.DefaultThreadPoolManager.get(DefaultThreadPoolManager.java:143) [org.apache.sling.commons.threads:3.2.22]
+	at org.apache.sling.commons.scheduler.impl.SchedulerProxy.<init>(SchedulerProxy.java:65) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.QuartzScheduler.scheduleJob(QuartzScheduler.java:588) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.QuartzScheduler.schedule(QuartzScheduler.java:526) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.WhiteboardHandler.scheduleJob(WhiteboardHandler.java:271) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.WhiteboardHandler.trySchedulePeriod(WhiteboardHandler.java:229) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.WhiteboardHandler.register(WhiteboardHandler.java:189) [org.apache.sling.commons.scheduler:2.7.12]
+	at org.apache.sling.commons.scheduler.impl.WhiteboardHandler.registerRunnable(WhiteboardHandler.java:146) [org.apache.sling.commons.scheduler:2.7.12]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invokeMethod(BaseMethod.java:245) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.access$500(BaseMethod.java:41) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod$Resolved.invoke(BaseMethod.java:687) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.inject.methods.BaseMethod.invoke(BaseMethod.java:531) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.inject.methods.BindMethod.invoke(BindMethod.java:42) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager.doInvokeBindMethod(DependencyManager.java:2086) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager.invokeBindMethod(DependencyManager.java:2061) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.invokeBindMethod(SingleComponentManager.java:443) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:336) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.addedService(DependencyManager.java:304) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1274) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1225) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1274) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1225) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1274) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1225) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.apache.sling.resourceresolver.impl.ResourceResolverFactoryActivator.registerFactory(ResourceResolverFactoryActivator.java:528) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.ResourceResolverFactoryActivator.checkFactoryPreconditions(ResourceResolverFactoryActivator.java:591) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.ResourceResolverFactoryActivator.access$100(ResourceResolverFactoryActivator.java:69) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.ResourceResolverFactoryActivator$1.providerAdded(ResourceResolverFactoryActivator.java:425) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.providers.ResourceProviderTracker.register(ResourceProviderTracker.java:217) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.providers.ResourceProviderTracker.access$200(ResourceProviderTracker.java:59) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.providers.ResourceProviderTracker$1.addingService(ResourceProviderTracker.java:130) [org.apache.sling.resourceresolver:1.8.4]
+	at org.apache.sling.resourceresolver.impl.providers.ResourceProviderTracker$1.addingService(ResourceProviderTracker.java:106) [org.apache.sling.resourceresolver:1.8.4]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:944)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:872)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:904)
+	at org.apache.felix.framework.EventDispatcher.invokeServiceListenerCallback(EventDispatcher.java:990)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:838)
+	at org.apache.felix.framework.EventDispatcher.fireServiceEvent(EventDispatcher.java:545)
+	at org.apache.felix.framework.Felix.fireServiceEvent(Felix.java:4863)
+	at org.apache.felix.framework.Felix.registerService(Felix.java:3834)
+	at org.apache.felix.framework.BundleContextImpl.registerService(BundleContextImpl.java:328)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enableInternal(AbstractComponentManager.java:674) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.enable(AbstractComponentManager.java:437) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.manager.ConfigurableComponentHolder.enableComponents(ConfigurableComponentHolder.java:671) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.BundleComponentActivator.initialEnable(BundleComponentActivator.java:310) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.Activator.loadComponents(Activator.java:592) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.Activator.access$200(Activator.java:73) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.Activator$ScrExtension.start(Activator.java:459) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.AbstractExtender.createExtension(AbstractExtender.java:196) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.AbstractExtender.modifiedBundle(AbstractExtender.java:169) [org.apache.felix.scr:2.2.0]
+	at org.apache.felix.scr.impl.AbstractExtender.modifiedBundle(AbstractExtender.java:49) [org.apache.felix.scr:2.2.0]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:488)
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerModified(BundleTracker.java:420)
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:232)
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:450)
+	at org.apache.felix.framework.EventDispatcher.invokeBundleListenerCallback(EventDispatcher.java:915)
+	at org.apache.felix.framework.EventDispatcher.fireEventImmediately(EventDispatcher.java:834)
+	at org.apache.felix.framework.EventDispatcher.fireBundleEvent(EventDispatcher.java:516)
+	at org.apache.felix.framework.Felix.fireBundleEvent(Felix.java:4847)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2363)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1566)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:308)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+05.04.2024 19:12:37.628 *ERROR* [FelixStartLevel] org.apache.sling.commons.scheduler.impl.WhiteboardHandler Scheduling service [java.lang.Runnable, org.apache.sling.event.impl.jobs.queues.QueueManager, org.osgi.service.event.EventHandler] failed.
+05.04.2024 19:12:37.648 *INFO* [FelixStartLevel] org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask scheduler config [31 41 0/12 * * ?], chunkGarbageTime  [360] ms
+05.04.2024 19:12:37.662 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Initializing thread pool [Script Cache Thread Pool]  ...
+05.04.2024 19:12:37.663 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.ThreadLocalCleaner Validating reflective access is permitted... 
+05.04.2024 19:12:37.663 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.ThreadLocalCleaner Accessed thread locals of current thread, found 1024
+05.04.2024 19:12:37.663 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Thread pool [Script Cache Thread Pool] initialized.
+05.04.2024 19:12:37.710 *INFO* [FelixStartLevel] org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory Activated with optimization level 9
+05.04.2024 19:12:37.786 *INFO* [FelixStartLevel] org.apache.sling.scripting.jsp.JspScriptEngineFactory Activating Apache Sling Script Engine for JSP with options {classdebuginfo=true, compilerSourceVM=11, compilerTargetVM=11, displaySourceFragments=false, enablePooling=true, genStringAsCharArray=false, ieClassId=clsid:8AD9C840-044E-11D1-B3E9-00805F499D93, keepgenerated=true, mappedfile=true, trimSpaces=false}
+05.04.2024 19:12:37.819 *INFO* [FelixStartLevel] org.apache.sling.scripting.sightly.impl.engine.compiled.SlingHTLMasterCompiler Activating org.apache.sling.scripting.sightly.impl.engine.compiled.SlingHTLMasterCompiler
+05.04.2024 19:12:37.832 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory setting up new template engine
+05.04.2024 19:12:37.833 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory configuration is null, not setting up new template engine
+05.04.2024 19:12:37.833 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory setting up new template engine
+05.04.2024 19:12:37.833 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory configuration is null, not setting up new template engine
+05.04.2024 19:12:37.833 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory setting up new template engine
+05.04.2024 19:12:37.833 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory configuration is null, not setting up new template engine
+05.04.2024 19:12:37.834 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory setting up new template engine
+05.04.2024 19:12:37.841 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory registering org.thymeleaf.TemplateEngine@5515cb33 as service org.thymeleaf.ITemplateEngine with properties {service.vendor=The Thymeleaf Team, service.description=Thymeleaf TemplateEngine}
+05.04.2024 19:12:37.899 *INFO* [FelixStartLevel] org.apache.sling.auth.core.impl.SlingAuthenticator modified: Setting new cookie name for impersonation sling.sudo (was null)
+05.04.2024 19:12:37.899 *INFO* [FelixStartLevel] org.apache.sling.auth.core.impl.SlingAuthenticator modified: Setting new parameter name for impersonation sudo (was null)
+05.04.2024 19:12:37.901 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.server.AbstractWebdavServlet authenticate-header = Basic realm="Jackrabbit Webdav Server"
+05.04.2024 19:12:37.902 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.server.AbstractWebdavServlet csrf-protection = disabled
+05.04.2024 19:12:37.902 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.server.AbstractWebdavServlet createAbsoluteURI = true
+05.04.2024 19:12:37.956 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.spi.base.IdMapService init: mapping already existed, left unchanged: slingId=06e4fd87-b3a9-44db-b63c-80df069fa41d to discovery-lite id=1
+05.04.2024 19:12:37.957 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.spi.base.IdMapService backgroundCheck: already done, backgroundCheck successful. no callback to invoke.
+05.04.2024 19:12:37.957 *INFO* [FelixStartLevel] org.apache.sling.discovery.base.connectors.ping.TopologyConnectorServlet activate: adding whitelist entry: localhost
+05.04.2024 19:12:37.957 *INFO* [FelixStartLevel] org.apache.sling.discovery.base.connectors.ping.TopologyConnectorServlet activate: adding whitelist entry: 127.0.0.1
+05.04.2024 19:12:37.959 *INFO* [FelixStartLevel] org.apache.sling.discovery.base.connectors.ping.TopologyConnectorServlet activate: connector servlet registered at /libs/sling/topology
+05.04.2024 19:12:37.967 *INFO* [FelixStartLevel] org.apache.sling.discovery.oak.pinger.OakViewChecker doActivate: activated with runtimeId: 0df029ad-f25b-41b0-b277-11ada418e3d5, slingId: 06e4fd87-b3a9-44db-b63c-80df069fa41d
+05.04.2024 19:12:37.971 *INFO* [FelixStartLevel] org.apache.sling.discovery.oak.pinger.OakViewChecker resetLeaderElectionId: storing my runtimeId: 0df029ad-f25b-41b0-b277-11ada418e3d5, endpoints: http://192.168.0.115:8080/,http://172.18.208.1:8080/, sling home path: C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher, new leaderElectionId: 1_0000001712337157967_06e4fd87-b3a9-44db-b63c-80df069fa41d, created at: java.util.GregorianCalendar[time=1712337157970,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Berlin",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=143,lastRule=java.util.SimpleTimeZone[id=Europe/Berlin,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2024,MONTH=3,WEEK_OF_YEAR=14,WEEK_OF_MONTH=1,DAY_OF_MONTH=5,DAY_OF_YEAR=96,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=12,SECOND=37,MILLISECOND=970,ZONE_OFFSET=3600000,DST_OFFSET=3600000]
+05.04.2024 19:12:37.977 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.spi.base.OakBacklogClusterSyncService activate: activated with slingId=06e4fd87-b3a9-44db-b63c-80df069fa41d
+05.04.2024 19:12:37.978 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.spi.base.SyncTokenService activate: activated with slingId=06e4fd87-b3a9-44db-b63c-80df069fa41d
+05.04.2024 19:12:37.983 *INFO* [FelixStartLevel] org.apache.sling.discovery.oak.cluster.OakClusterViewService getLocalClusterView: sequence number change detected - clearing idmap cache
+05.04.2024 19:12:37.985 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.spi.base.IdMapService toSlingId: mapping for 1 to 06e4fd87-b3a9-44db-b63c-80df069fa41d was newly added.
+05.04.2024 19:12:37.991 *INFO* [FelixStartLevel] org.apache.sling.discovery.oak.pinger.OakViewChecker initialize: initializing.
+05.04.2024 19:12:37.991 *INFO* [FelixStartLevel] org.apache.sling.discovery.oak.pinger.OakViewChecker initialize: starting periodic connectorPing job for 06e4fd87-b3a9-44db-b63c-80df069fa41d with interval 30 sec.
+05.04.2024 19:12:37.991 *INFO* [FelixStartLevel] org.apache.sling.discovery.oak.pinger.OakViewChecker initialize: starting periodic discoveryLiteCheck job for 06e4fd87-b3a9-44db-b63c-80df069fa41d with interval 2 sec.
+05.04.2024 19:12:37.993 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.base.AsyncEventSender AsyncEventSender.run: started.
+05.04.2024 19:12:38.001 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.MinEventDelayHandler handlesNewView: never had a previous view, hence no delaying applicable
+05.04.2024 19:12:38.001 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl handleNewViewNonDelayed: ClusterSyncService set - invoking...
+05.04.2024 19:12:38.001 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl handleNewViewNonDelayed: invoking waitForAsyncEvents, then clusterSyncService (modCnt=3)
+05.04.2024 19:12:38.001 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl handleNewViewNonDelayed/waitForAsyncEvents.run: done, now invoking consistencyService (modCnt=3)
+05.04.2024 19:12:38.002 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.spi.base.OakBacklogClusterSyncService sync: doing wait-for-backlog part for view=DefaultTopologyView[current=true, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]]
+05.04.2024 19:12:38.003 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.spi.base.OakBacklogClusterSyncService getBacklogStatus: no backlog (anymore)
+05.04.2024 19:12:38.004 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.spi.base.OakBacklogClusterSyncService waitWhileBacklog: no backlog (anymore), done.
+05.04.2024 19:12:38.004 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.spi.base.OakBacklogClusterSyncService backgroundCheck: already done, backgroundCheck successful, invoking callback
+05.04.2024 19:12:38.006 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.spi.base.SyncTokenService storeMySyncToken: syncToken was left unchanged for slingId=06e4fd87-b3a9-44db-b63c-80df069fa41d at=1
+05.04.2024 19:12:38.008 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.spi.base.SyncTokenService seenAllSyncTokens: seen all syncTokens!
+05.04.2024 19:12:38.008 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.spi.base.SyncTokenService backgroundCheck: already done, backgroundCheck successful, invoking callback
+05.04.2024 19:12:38.008 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl consistencyService.callback.run: invoking doHandleConsistent.
+05.04.2024 19:12:38.008 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl enqueueForAll: sending topologyEvent TopologyEvent [type=TOPOLOGY_INIT, oldView=null, newView=DefaultTopologyView[current=true, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]]], to all (5) listeners
+05.04.2024 19:12:38.009 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl enqueue: enqueuing topologyEvent TopologyEvent [type=TOPOLOGY_INIT, oldView=null, newView=DefaultTopologyView[current=true, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]]], to org.apache.sling.discovery.oak.TopologyWebConsolePlugin@79230fbc
+05.04.2024 19:12:38.024 *INFO* [FelixStartLevel] org.apache.sling.xss.impl.XSSFilterImpl Could not find a policy file at the configured location sling/xss/config.xml. Attempting to use the default resource embedded in the bundle.
+05.04.2024 19:12:38.028 *INFO* [FelixStartLevel] org.owasp.validator.html.Policy Attempting to load AntiSamy policy from an input stream.
+05.04.2024 19:12:38.263 *INFO* [FelixStartLevel] org.apache.sling.xss.impl.XSSFilterImpl Installed policy from the embedded SLING-INF/content/config.xml file from the bundle.
+05.04.2024 19:12:38.270 *INFO* [FelixStartLevel] org.apache.sling.xss.impl.XSSFilterImpl Registered a resource change listener for file sling/xss/config.xml.
+05.04.2024 19:12:38.327 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.server.AbstractWebdavServlet authenticate-header = Basic realm="Sling WebDAV"
+05.04.2024 19:12:38.327 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.server.AbstractWebdavServlet csrf-protection = null
+05.04.2024 19:12:38.327 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.server.AbstractWebdavServlet createAbsoluteURI = true
+05.04.2024 19:12:38.327 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.simple.SimpleWebdavServlet resource-path-prefix = '/dav'
+05.04.2024 19:12:38.359 *INFO* [FelixStartLevel] org.apache.sling.servlets.get.impl.DefaultGetServlet Legacy ECMA format is enabled
+05.04.2024 19:12:38.372 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.server.AbstractWebdavServlet authenticate-header = Basic realm="Jackrabbit Webdav Server"
+05.04.2024 19:12:38.373 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.server.AbstractWebdavServlet csrf-protection = null
+05.04.2024 19:12:38.373 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.server.AbstractWebdavServlet createAbsoluteURI = true
+05.04.2024 19:12:38.373 *INFO* [FelixStartLevel] org.apache.jackrabbit.webdav.simple.SimpleWebdavServlet resource-path-prefix = ''
+05.04.2024 19:12:38.438 *WARN* [FelixStartLevel] org.apache.sling.resourceresolver.impl.observation.OsgiObservationBridge Found OSGi Event Handler for deprecated resource bridge: org.apache.sling.validation.impl.resourcemodel.ResourceValidationModelProviderImpl@2702ef6e
+05.04.2024 19:12:38.463 *INFO* [FelixStartLevel] org.apache.sling.installer.provider.jcr.impl.JcrInstaller Activating Apache Sling JCR Installer
+05.04.2024 19:12:38.470 *INFO* [FelixStartLevel] org.apache.sling.installer.provider.jcr.impl.RootFolderListener Watching /apps to detect potential changes in subfolders
+05.04.2024 19:12:38.473 *INFO* [FelixStartLevel] org.apache.sling.installer.provider.jcr.impl.RootFolderListener Watching /libs to detect potential changes in subfolders
+05.04.2024 19:12:38.481 *INFO* [FelixStartLevel] org.apache.sling.installer.provider.jcr.impl.RootFolderMoveListener Watching [/apps, /libs] to detect move changes in subfolders
+05.04.2024 19:12:38.482 *INFO* [FelixStartLevel] org.apache.sling.installer.provider.jcr.impl.WatchedFolder Watching folder /apps/sling/install (priority 200)
+05.04.2024 19:12:38.484 *INFO* [FelixStartLevel] org.apache.sling.installer.provider.jcr.impl.WatchedFolder Watching folder /apps/demo/install (priority 200)
+05.04.2024 19:12:38.498 *INFO* [JcrInstaller.1] org.apache.sling.installer.provider.jcr.impl.JcrInstaller Background thread JcrInstaller.1 starting
+05.04.2024 19:12:38.507 *INFO* [FelixStartLevel] org.apache.jackrabbit.vault.packaging.impl.ActivityLog Package Activity Log Started
+05.04.2024 19:12:38.521 *INFO* [FelixStartLevel] org.apache.jackrabbit.vault.packaging.impl.PackagingImpl Jackrabbit Filevault Packaging initialized with config org.apache.jackrabbit.vault.packaging.impl.PackagingImpl$Config : {isStrict=true, authIdsForRootInstallation=[Ljava.lang.String;@15d8e894, overwritePrimaryTypesOfFolders=true, authIdsForHookExecution=[Ljava.lang.String;@760ee4a3, hashCode=0, equals=false, annotationType=null, toString=null, packageRoots=[Ljava.lang.String;@2d57f3b8, defaultIdConflictPolicy=FAIL}
+05.04.2024 19:12:38.554 *WARN* [FelixStartLevel] org.apache.jackrabbit.oak.jcr.lock.LockDeprecation Support for JCR Locking is deprecated and will be disabled in a future version of Jackrabbit Oak (see OAK-6421 for further information) - operation 'get LockManager' called from: org.apache.jackrabbit.oak.jcr.session.WorkspaceImpl.getLockManager(WorkspaceImpl.java:211) org.apache.jackrabbit.oak.jcr.session.WorkspaceImpl.getLockManager(WorkspaceImpl.java:63) org.apache.sling.jcr.contentloader.internal.BundleContentLoaderListener.getBundleContentInfo(BundleContentLoaderListener.java:363) org.apache.sling.jcr.contentloader.internal.BundleContentLoader.registerBundleInternal(BundleContentLoader.java:155) org.apache.sling.jcr.contentloader.internal.BundleContentLoader.registerBundle(BundleContentLoader.java:122)
+05.04.2024 19:12:38.563 *INFO* [FelixStartLevel] org.apache.sling.jcr.contentloader.internal.BundleContentLoader Content of bundle already loaded org.apache.sling.validation.core.
+05.04.2024 19:12:38.575 *INFO* [FelixStartLevel] org.apache.sling.jcr.contentloader.internal.BundleContentLoader Content of bundle already loaded com.composum.nodes.commons.
+05.04.2024 19:12:38.701 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.MinEventDelayHandler handlesNewView: only properties differ, hence no delaying applicable
+05.04.2024 19:12:38.701 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl handleNewViewNonDelayed: properties changed to: DefaultTopologyView[current=true, num=1, instances=[clusterId=9da08a23-24c5-449d-a879-2e1a676ace3b, instances=[id=06e4fd87-b3a9-44db-b63c-80df069fa41d, isLeader=true, isLocal=true]]]
+05.04.2024 19:12:38.701 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl enqueueForAll: sending topologyEvent TopologyEvent [type=PROPERTIES_CHANGED, oldView=DefaultTopologyView[current=false, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]], newView=DefaultTopologyView[current=true, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]]], to all (6) listeners
+05.04.2024 19:12:38.701 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.oak.OakDiscoveryService changePropagationListener.handleTopologyEvent: topology changed - propagate through connectors
+05.04.2024 19:12:38.701 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.oak.pinger.OakViewChecker triggerAsyncConnectorPing: firing job to trigger heartbeat
+05.04.2024 19:12:38.780 *INFO* [FelixStartLevel] org.apache.sling.jcr.contentloader.internal.BundleContentLoader Content of bundle already loaded com.composum.nodes.console.
+05.04.2024 19:12:38.901 *INFO* [FelixStartLevel] org.apache.sling.jcr.contentloader.internal.BundleContentLoader Content of bundle already loaded com.composum.nodes.jslibs.
+05.04.2024 19:12:38.917 *INFO* [FelixStartLevel] org.apache.sling.jcr.contentloader.internal.BundleContentLoader Content of bundle already loaded com.composum.nodes.pckgmgr.
+05.04.2024 19:12:38.937 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.MinEventDelayHandler handlesNewView: only properties differ, hence no delaying applicable
+05.04.2024 19:12:38.937 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl handleNewViewNonDelayed: properties changed to: DefaultTopologyView[current=true, num=1, instances=[clusterId=9da08a23-24c5-449d-a879-2e1a676ace3b, instances=[id=06e4fd87-b3a9-44db-b63c-80df069fa41d, isLeader=true, isLocal=true]]]
+05.04.2024 19:12:38.937 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl enqueueForAll: sending topologyEvent TopologyEvent [type=PROPERTIES_CHANGED, oldView=DefaultTopologyView[current=false, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]], newView=DefaultTopologyView[current=true, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]]], to all (6) listeners
+05.04.2024 19:12:38.937 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.oak.OakDiscoveryService changePropagationListener.handleTopologyEvent: topology changed - propagate through connectors
+05.04.2024 19:12:38.937 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.oak.pinger.OakViewChecker triggerAsyncConnectorPing: firing job to trigger heartbeat
+05.04.2024 19:12:38.960 *INFO* [FelixStartLevel] org.apache.sling.jcr.contentloader.internal.BundleContentLoader Content of bundle already loaded com.composum.nodes.usermgr.
+05.04.2024 19:12:41.919 *INFO* [async-index-update-async] org.apache.jackrabbit.oak.plugins.index.search.spi.binary.FulltextBinaryTextExtractor Loaded default Tika Config from classpath bundle://2e746411-95d2-4835-8ea0-161d11d45263_103.0:1/org/apache/jackrabbit/oak/plugins/index/search/spi/editor/tika-config.xml
+05.04.2024 19:12:41.949 *INFO* [async-index-update-async] org.apache.jackrabbit.oak.plugins.index.lucene.directory.IndexSanityChecker Local index directory content found to be valid for index [/oak:index/lucene]. Stats Local: 29 files (1.9 MB), Remote: 29 files (1.9 MB)
+05.04.2024 19:12:55.947 *INFO* [[0:0:0:0:0:0:0:1] [1712337175945] GET /favicon.ico HTTP/1.1] org.apache.sling.engine.impl.SlingRequestProcessorImpl service: Resource /favicon.ico not found
+05.04.2024 19:13:45.854 *INFO* [qtp844593886-250] org.apache.sling.auth.core.impl.SlingAuthenticator getAnonymousResolver: Anonymous access not allowed by configuration - requesting credentials
+05.04.2024 19:13:45.895 *INFO* [[0:0:0:0:0:0:0:1] [1712337225893] GET /content/starter/img/sling-logo.svg HTTP/1.1] org.apache.sling.engine.impl.SlingRequestProcessorImpl service: Resource /content/starter/img/sling-logo.svg not found
+05.04.2024 19:13:51.718 *INFO* [qtp844593886-62] org.apache.sling.auth.form.impl.TokenStore Token File C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\framework\bundle123\data\cookie-tokens.bin parent C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\framework\bundle123\data 
+05.04.2024 19:13:51.980 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundle Finding all dictionaries for 'de_DE' (basename: <none>) ...
+05.04.2024 19:13:51.982 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundle Finished loading 0 entries for 'de_DE' (basename: <none>) in 2ms
+05.04.2024 19:13:51.982 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundle Finding all dictionaries for 'de' (basename: <none>) ...
+05.04.2024 19:13:51.984 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundle Loading sling:Message dictionary: /libs/composum/nodes/browser/i18n/de
+05.04.2024 19:13:51.986 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundle Loading sling:Message dictionary: /libs/composum/nodes/commons/i18n/de
+05.04.2024 19:13:51.990 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundle Loading sling:Message dictionary: /libs/composum/nodes/usermgnt/i18n/de
+05.04.2024 19:13:51.994 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundle Finished loading 135 entries for 'de' (basename: <none>) in 11ms
+05.04.2024 19:13:51.994 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundle Finding all dictionaries for 'en' (basename: <none>) ...
+05.04.2024 19:13:51.997 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundle Loading sling:Message dictionary: /libs/sling/validation/i18n/en
+05.04.2024 19:13:51.997 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundle Finished loading 8 entries for 'en' (basename: <none>) in 3ms
+05.04.2024 19:13:51.998 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundleProvider Currently loaded dictionaries across all locales: [/libs/sling/validation/i18n/en]
+05.04.2024 19:13:51.999 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundleProvider Currently loaded dictionaries across all locales: [/libs/composum/nodes/commons/i18n/de, /libs/composum/nodes/browser/i18n/de, /libs/sling/validation/i18n/en, /libs/composum/nodes/usermgnt/i18n/de]
+05.04.2024 19:13:52.000 *INFO* [[0:0:0:0:0:0:0:1] [1712337231733] GET /bin/browser.html HTTP/1.1] org.apache.sling.i18n.impl.JcrResourceBundleProvider Currently loaded dictionaries across all locales: [/libs/composum/nodes/commons/i18n/de, /libs/composum/nodes/browser/i18n/de, /libs/sling/validation/i18n/en, /libs/composum/nodes/usermgnt/i18n/de]
+05.04.2024 19:22:36.853 *WARN* [sling-oak-1-org.apache.jackrabbit.oak.plugins.index.lucene.property.PropertyIndexCleaner] org.apache.jackrabbit.oak.plugins.index.IndexPathServiceImpl oak:QueryIndexDefinition is not found to be indexed as part of nodetype index. Non root indexes would not be listed
+05.04.2024 20:13:00.385 *ERROR* [qtp844593886-269] org.apache.sling.auth.form.impl.TokenStore AuthNCookie value 'e0d8f90e531da9bfa65c1098e884ea161c9a37837bb2397d2476bf447c88c69b@31712339031717@admin' has expired 1748668ms ago
+05.04.2024 20:13:00.385 *INFO* [qtp844593886-269] org.apache.sling.auth.core.impl.SlingAuthenticator getAnonymousResolver: Anonymous access not allowed by configuration - requesting credentials
+05.04.2024 20:14:28.270 *INFO* [qtp844593886-58] org.apache.sling.auth.core.impl.SlingAuthenticator getAnonymousResolver: Anonymous access not allowed by configuration - requesting credentials
+05.04.2024 20:14:28.270 *INFO* [qtp844593886-250] org.apache.sling.auth.core.impl.SlingAuthenticator getAnonymousResolver: Anonymous access not allowed by configuration - requesting credentials
+05.04.2024 20:14:28.520 *INFO* [qtp844593886-270] org.apache.sling.auth.core.impl.SlingAuthenticator getAnonymousResolver: Anonymous access not allowed by configuration - requesting credentials
+05.04.2024 20:14:38.351 *INFO* [qtp844593886-58] org.apache.sling.auth.core.impl.SlingAuthenticator getAnonymousResolver: Anonymous access not allowed by configuration - requesting credentials
+05.04.2024 20:14:46.675 *INFO* [qtp844593886-58] org.apache.sling.auth.core.impl.SlingAuthenticator getAnonymousResolver: Anonymous access not allowed by configuration - requesting credentials
+05.04.2024 20:14:46.697 *INFO* [[0:0:0:0:0:0:0:1] [1712340886696] GET /content/starter/img/sling-logo.svg HTTP/1.1] org.apache.sling.engine.impl.SlingRequestProcessorImpl service: Resource /content/starter/img/sling-logo.svg not found
+05.04.2024 20:14:51.253 *INFO* [qtp844593886-270] org.apache.sling.auth.form.impl.TokenStore Token File C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\framework\bundle123\data\cookie-tokens.bin parent C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\framework\bundle123\data 
+05.04.2024 20:14:51.974 *INFO* [[0:0:0:0:0:0:0:1] [1712340891965] GET /bin/public/clientlibs.min.css/jPUD4o6Niwo/composum.nodes.console.pckgmgr.css HTTP/1.1] com.composum.sling.clientlibs.service.DefaultClientlibService prepare ''css:category:composum.nodes.console.pckgmgr''...
+05.04.2024 20:14:51.995 *INFO* [oak-lucene-7] org.apache.jackrabbit.oak.plugins.index.lucene.IndexTracker Refreshed the opened indexes
+05.04.2024 20:14:52.049 *INFO* [[0:0:0:0:0:0:0:1] [1712340891965] GET /bin/public/clientlibs.min.css/jPUD4o6Niwo/composum.nodes.console.pckgmgr.css HTTP/1.1] com.composum.sling.clientlibs.service.DefaultClientlibService clientlib cache content ''/var/composum/clientlibs/categorycache/composum.nodes.console.pckgmgr.min.css'' created
+05.04.2024 20:14:52.051 *INFO* [[0:0:0:0:0:0:0:1] [1712340891965] GET /bin/public/clientlibs.min.css/jPUD4o6Niwo/composum.nodes.console.pckgmgr.css HTTP/1.1] com.composum.sling.core.concurrent.LazyCreationServiceImpl Initialized /var/composum/clientlibs/categorycache/composum.nodes.console.pckgmgr.min.css
+05.04.2024 20:14:52.235 *INFO* [[0:0:0:0:0:0:0:1] [1712340891259] GET /bin/packages.html HTTP/1.1] com.composum.sling.clientlibs.processor.RendererContext duplicate clientlib link js:/libs/composum/nodes/console/clientlibs/console being included from null 
+05.04.2024 20:14:52.235 *INFO* [[0:0:0:0:0:0:0:1] [1712340891259] GET /bin/packages.html HTTP/1.1] com.composum.sling.clientlibs.processor.RendererContext duplicate clientlib link js:category:composum.nodes.console.default being included from js:/libs/composum/nodes/pckgmgr/clientlib/js 
+05.04.2024 20:14:52.260 *INFO* [[0:0:0:0:0:0:0:1] [1712340892248] GET /bin/public/clientlibs.min.js/jduji5qxdEo/composum.nodes.console.pckgmgr.js HTTP/1.1] com.composum.sling.clientlibs.service.DefaultClientlibService prepare ''js:category:composum.nodes.console.pckgmgr''...
+05.04.2024 20:14:52.289 *INFO* [[0:0:0:0:0:0:0:1] [1712340892248] GET /bin/public/clientlibs.min.js/jduji5qxdEo/composum.nodes.console.pckgmgr.js HTTP/1.1] com.composum.sling.clientlibs.service.DefaultClientlibService clientlib cache content ''/var/composum/clientlibs/categorycache/composum.nodes.console.pckgmgr.min.js'' created
+05.04.2024 20:14:52.291 *INFO* [[0:0:0:0:0:0:0:1] [1712340892248] GET /bin/public/clientlibs.min.js/jduji5qxdEo/composum.nodes.console.pckgmgr.js HTTP/1.1] com.composum.sling.core.concurrent.LazyCreationServiceImpl Initialized /var/composum/clientlibs/categorycache/composum.nodes.console.pckgmgr.min.js
+05.04.2024 20:22:36.854 *WARN* [sling-oak-4-org.apache.jackrabbit.oak.plugins.index.lucene.property.PropertyIndexCleaner] org.apache.jackrabbit.oak.plugins.index.IndexPathServiceImpl oak:QueryIndexDefinition is not found to be indexed as part of nodetype index. Non root indexes would not be listed
+05.04.2024 20:39:04.060 *INFO* [qtp844593886-250] org.apache.sling.auth.form.impl.TokenStore Token File C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\framework\bundle123\data\cookie-tokens.bin parent C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\framework\bundle123\data 
+05.04.2024 20:40:34.791 *INFO* [[0:0:0:0:0:0:0:1] [1712342434775] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:40:40.896 *INFO* [[0:0:0:0:0:0:0:1] [1712342440895] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:41:02.297 *INFO* [[0:0:0:0:0:0:0:1] [1712342462295] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:41:22.046 *INFO* [[0:0:0:0:0:0:0:1] [1712342482045] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:41:38.455 *INFO* [[0:0:0:0:0:0:0:1] [1712342498454] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:42:36.853 *WARN* [sling-oak-5-org.apache.jackrabbit.oak.plugins.index.lucene.property.PropertyIndexCleaner] org.apache.jackrabbit.oak.plugins.index.IndexPathServiceImpl oak:QueryIndexDefinition is not found to be indexed as part of nodetype index. Non root indexes would not be listed
+05.04.2024 20:50:41.098 *INFO* [[0:0:0:0:0:0:0:1] [1712343041096] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:51:12.295 *INFO* [[0:0:0:0:0:0:0:1] [1712343072293] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:51:12.321 *INFO* [[0:0:0:0:0:0:0:1] [1712343072320] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:51:19.269 *INFO* [[0:0:0:0:0:0:0:1] [1712343079268] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:51:54.119 *INFO* [[0:0:0:0:0:0:0:1] [1712343114118] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:52:36.853 *WARN* [sling-oak-3-org.apache.jackrabbit.oak.plugins.index.lucene.property.PropertyIndexCleaner] org.apache.jackrabbit.oak.plugins.index.IndexPathServiceImpl oak:QueryIndexDefinition is not found to be indexed as part of nodetype index. Non root indexes would not be listed
+05.04.2024 20:52:42.598 *INFO* [[0:0:0:0:0:0:0:1] [1712343162597] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:52:50.925 *INFO* [[0:0:0:0:0:0:0:1] [1712343170924] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:53:32.786 *INFO* [[0:0:0:0:0:0:0:1] [1712343212785] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 20:53:32.809 *INFO* [[0:0:0:0:0:0:0:1] [1712343212808] GET /bin/cpm/nodes/property.map.json/content/demo/content1 HTTP/1.1] org.apache.sling.xss.impl.HtmlToHtmlContentContext AntiSamy warning: The script tag is not allowed for security reasons. This tag should not affect the display of the input. 
+05.04.2024 21:02:36.864 *WARN* [sling-oak-1-org.apache.jackrabbit.oak.plugins.index.lucene.property.PropertyIndexCleaner] org.apache.jackrabbit.oak.plugins.index.IndexPathServiceImpl oak:QueryIndexDefinition is not found to be indexed as part of nodetype index. Non root indexes would not be listed
+05.04.2024 21:12:13.680 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.MinEventDelayHandler handlesNewView: only properties differ, hence no delaying applicable
+05.04.2024 21:12:13.680 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl handleNewViewNonDelayed: properties changed to: DefaultTopologyView[current=true, num=1, instances=[clusterId=9da08a23-24c5-449d-a879-2e1a676ace3b, instances=[id=06e4fd87-b3a9-44db-b63c-80df069fa41d, isLeader=true, isLocal=true]]]
+05.04.2024 21:12:13.680 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl enqueueForAll: sending topologyEvent TopologyEvent [type=PROPERTIES_CHANGED, oldView=DefaultTopologyView[current=false, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]], newView=DefaultTopologyView[current=true, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]]], to all (6) listeners
+05.04.2024 21:12:13.680 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.oak.OakDiscoveryService changePropagationListener.handleTopologyEvent: topology changed - propagate through connectors
+05.04.2024 21:12:13.680 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.oak.pinger.OakViewChecker triggerAsyncConnectorPing: firing job to trigger heartbeat
+05.04.2024 21:12:13.743 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.MinEventDelayHandler handlesNewView: only properties differ, hence no delaying applicable
+05.04.2024 21:12:13.743 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl handleNewViewNonDelayed: properties changed to: DefaultTopologyView[current=true, num=1, instances=[clusterId=9da08a23-24c5-449d-a879-2e1a676ace3b, instances=[id=06e4fd87-b3a9-44db-b63c-80df069fa41d, isLeader=true, isLocal=true]]]
+05.04.2024 21:12:13.743 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.ViewStateManagerImpl enqueueForAll: sending topologyEvent TopologyEvent [type=PROPERTIES_CHANGED, oldView=DefaultTopologyView[current=false, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]], newView=DefaultTopologyView[current=true, num=1, instances=06e4fd87-b3a9-44db-b63c-80df069fa41d[local=true,leader=true]]], to all (6) listeners
+05.04.2024 21:12:13.743 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.oak.OakDiscoveryService changePropagationListener.handleTopologyEvent: topology changed - propagate through connectors
+05.04.2024 21:12:13.743 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.oak.pinger.OakViewChecker triggerAsyncConnectorPing: firing job to trigger heartbeat
+05.04.2024 21:12:13.779 *INFO* [FelixStartLevel] org.apache.sling.installer.provider.jcr.impl.JcrInstaller Deactivating Apache Sling JCR Installer
+05.04.2024 21:12:13.779 *INFO* [JcrInstaller.1] org.apache.sling.installer.provider.jcr.impl.JcrInstaller Background thread JcrInstaller.1 done
+05.04.2024 21:12:13.792 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory setting up new template engine
+05.04.2024 21:12:13.793 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory setting up new template engine
+05.04.2024 21:12:13.793 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ThymeleafScriptEngineFactory setting up new template engine
+05.04.2024 21:12:13.793 *WARN* [pool-4-thread-1] org.apache.sling.discovery.oak.OakDiscoveryService updatePropertyProvider: got RuntimeException (enable debug logging to see stacktrace) : java.lang.IllegalArgumentException: Can't create child on a synthetic root
+05.04.2024 21:12:13.794 *INFO* [FelixStartLevel] org.apache.sling.scripting.thymeleaf.internal.ResourceBundleMessageResolver unsetting resource bundle provider: org.apache.sling.i18n.impl.JcrResourceBundleProvider@361fa51e
+05.04.2024 21:12:13.802 *INFO* [pool-4-thread-1] org.apache.sling.event.impl.jobs.JobManagerImpl Apache Sling Job Manager stopped on instance 06e4fd87-b3a9-44db-b63c-80df069fa41d
+05.04.2024 21:12:13.810 *INFO* [pool-4-thread-1] org.apache.sling.event.impl.jobs.queues.QueueManager Apache Sling Queue Manager stopped on instance 06e4fd87-b3a9-44db-b63c-80df069fa41d
+05.04.2024 21:12:13.811 *WARN* [pool-4-thread-1] org.apache.sling.discovery.oak.OakDiscoveryService unbindPropertyProvider: got RuntimeException (enable debug logging to see stacktrace) : java.lang.IllegalArgumentException: Can't create child on a synthetic root
+05.04.2024 21:12:13.820 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.AsyncEventSender AsyncEventSender.flushThenStop: flushing (size: 0) & stopping...
+05.04.2024 21:12:13.820 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.base.AsyncEventSender AsyncEventSender.run: flush finished. stopped.
+05.04.2024 21:12:13.820 *INFO* [FelixStartLevel] org.apache.sling.discovery.commons.providers.base.MinEventDelayHandler cancelDelaying: flagging cancelCnt as invalid: 0
+05.04.2024 21:12:13.820 *INFO* [Discovery-AsyncEventSender] org.apache.sling.discovery.commons.providers.base.AsyncEventSender AsyncEventSender.run: quits (finally).
+05.04.2024 21:12:13.821 *INFO* [FelixStartLevel] org.apache.sling.discovery.oak.pinger.OakViewChecker deactivate: deactivated slingId: 06e4fd87-b3a9-44db-b63c-80df069fa41d, this: org.apache.sling.discovery.oak.pinger.OakViewChecker@18a9c44d
+05.04.2024 21:12:13.836 *INFO* [pool-4-thread-1] org.apache.sling.commons.threads.impl.DefaultThreadPool Shutting down thread pool [Script Cache Thread Pool] ...
+05.04.2024 21:12:13.836 *INFO* [pool-4-thread-1] org.apache.sling.commons.threads.impl.DefaultThreadPool Thread pool [Script Cache Thread Pool] is shut down.
+05.04.2024 21:12:13.846 *INFO* [FelixStartLevel] org.apache.sling.scripting.jsp.JspScriptEngineFactory Deactivating Apache Sling Script Engine for JSP
+05.04.2024 21:12:13.948 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Shutting down thread pool [ThreadPool-a87dbd55-e539-45cb-97dd-481588927885 (Apache Sling Job Thread Pool)] ...
+05.04.2024 21:12:13.948 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Thread pool [ThreadPool-a87dbd55-e539-45cb-97dd-481588927885 (Apache Sling Job Thread Pool)] is shut down.
+05.04.2024 21:12:13.957 *INFO* [FelixStartLevel] org.apache.sling.discovery.impl.support.MetricReporter deactivate: done.
+05.04.2024 21:12:13.986 *INFO* [FelixStartLevel] org.apache.sling.engine.impl.SlingMainServlet ApacheSling/2.8 (jetty/9.4.44.v20210927, OpenJDK 64-Bit Server VM 11, Windows 10 10.0 amd64) shut down
+05.04.2024 21:12:13.990 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Scheduler ApacheSlingoak_$_Fri_Apr_05_19:12:36_CEST_2024854229939 shutting down.
+05.04.2024 21:12:13.990 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Scheduler ApacheSlingoak_$_Fri_Apr_05_19:12:36_CEST_2024854229939 paused.
+05.04.2024 21:12:13.991 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Scheduler ApacheSlingoak_$_Fri_Apr_05_19:12:36_CEST_2024854229939 shutdown complete.
+05.04.2024 21:12:13.991 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Shutting down thread pool [oak] ...
+05.04.2024 21:12:13.991 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Thread pool [oak] is shut down.
+05.04.2024 21:12:13.997 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Scheduler ApacheSlingdefault_$_Fri_Apr_05_19:12:36_CEST_20242068135552 shutting down.
+05.04.2024 21:12:13.997 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Scheduler ApacheSlingdefault_$_Fri_Apr_05_19:12:36_CEST_20242068135552 paused.
+05.04.2024 21:12:13.997 *INFO* [FelixStartLevel] org.quartz.core.QuartzScheduler Scheduler ApacheSlingdefault_$_Fri_Apr_05_19:12:36_CEST_20242068135552 shutdown complete.
+05.04.2024 21:12:14.004 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Shutting down thread pool [default] ...
+05.04.2024 21:12:14.004 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPool Thread pool [default] is shut down.
+05.04.2024 21:12:14.010 *INFO* [FelixStartLevel] org.apache.sling.jcr.oak.server.internal.OakSlingRepositoryManager Stop requested
+05.04.2024 21:12:14.010 *INFO* [FelixStartLevel] org.apache.sling.jcr.oak.server.internal.OakSlingRepositoryManager Waiting 60000 millis for Apache Sling Repository Startup Thread #1 to complete, attempt 1/5.
+05.04.2024 21:12:14.010 *INFO* [FelixStartLevel] org.apache.sling.jcr.oak.server.internal.OakSlingRepositoryManager Apache Sling Repository Startup Thread #1 not alive, proceeding
+05.04.2024 21:12:14.010 *INFO* [FelixStartLevel] org.apache.sling.jcr.oak.server.internal.OakSlingRepositoryManager stop: Repository still running, forcing shutdown
+05.04.2024 21:12:14.019 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.plugins.index.AsyncIndexUpdate [async] Closed
+05.04.2024 21:12:14.022 *INFO* [FelixStartLevel] org.apache.sling.jcr.base.internal.LoginAdminWhitelist WhitelistFragment removed 'sling: [org.apache.sling.servlets.post, org.apache.sling.discovery.oak, org.apache.sling.i18n, org.apache.sling.discovery.commons, org.apache.sling.jcr.oak.server, org.apache.sling.jcr.contentloader, org.apache.sling.jcr.repoinit, org.apache.sling.jcr.base, org.apache.sling.jcr.jackrabbit.usermanager, org.apache.sling.discovery.base]'
+05.04.2024 21:12:14.022 *INFO* [FelixStartLevel] org.apache.sling.jcr.base.internal.LoginAdminWhitelist WhitelistFragment removed 'composum: [com.composum.nodes.pckgmgr, com.composum.nodes.usermgr, com.composum.nodes.commons]'
+05.04.2024 21:12:14.022 *INFO* [FelixStartLevel] org.apache.sling.jcr.base.internal.LoginAdminWhitelist WhitelistFragment removed 'webconsole: [org.apache.sling.serviceuser.webconsole, org.apache.sling.jcr.webconsole, org.apache.sling.extensions.webconsolesecurityprovider]'
+05.04.2024 21:12:14.133 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.segment.file.FileStore TarMK closed: C:\Users\chia-ju.lin\IdeaProjects\demo\launcher\launcher\repository\segmentstore
+05.04.2024 21:12:14.138 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to unregister the SecurityProvider...
+05.04.2024 21:12:14.139 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration SecurityProvider instance unregistered
+05.04.2024 21:12:14.140 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to unregister the SecurityProvider...
+05.04.2024 21:12:14.140 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no SecurityProvider is registered
+05.04.2024 21:12:14.144 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to unregister the SecurityProvider...
+05.04.2024 21:12:14.144 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no SecurityProvider is registered
+05.04.2024 21:12:14.146 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to unregister the SecurityProvider...
+05.04.2024 21:12:14.146 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no SecurityProvider is registered
+05.04.2024 21:12:14.149 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to unregister the SecurityProvider...
+05.04.2024 21:12:14.149 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no SecurityProvider is registered
+05.04.2024 21:12:14.149 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to unregister the SecurityProvider...
+05.04.2024 21:12:14.149 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no SecurityProvider is registered
+05.04.2024 21:12:14.150 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to unregister the SecurityProvider...
+05.04.2024 21:12:14.150 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no SecurityProvider is registered
+05.04.2024 21:12:14.150 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to unregister the SecurityProvider...
+05.04.2024 21:12:14.150 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no SecurityProvider is registered
+05.04.2024 21:12:14.150 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Trying to unregister the SecurityProvider...
+05.04.2024 21:12:14.150 *INFO* [FelixStartLevel] org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration Aborting: no SecurityProvider is registered
+05.04.2024 21:12:14.165 *INFO* [FelixStartLevel] org.apache.sling.commons.threads.impl.DefaultThreadPoolManager Stopped Apache Sling Thread Pool Manager
+05.04.2024 21:12:14.178 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Unregistering HC Servlet HealthCheckExecutorServlet from path /system/health
+05.04.2024 21:12:14.178 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Unregistering HC Servlet HealthCheckExecutorServlet from path /system/health.html
+05.04.2024 21:12:14.178 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Unregistering HC Servlet HealthCheckExecutorServlet from path /system/health.json
+05.04.2024 21:12:14.178 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Unregistering HC Servlet HealthCheckExecutorServlet from path /system/health.jsonp
+05.04.2024 21:12:14.178 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Unregistering HC Servlet HealthCheckExecutorServlet from path /system/health.txt
+05.04.2024 21:12:14.178 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.servlet.HealthCheckExecutorServlet Unregistering HC Servlet HealthCheckExecutorServlet from path /system/health.verbose.txt
+05.04.2024 21:12:14.179 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.filter.ServiceUnavailableFilter ServiceUnavailableFilter deactivated
+05.04.2024 21:12:14.179 *INFO* [FelixStartLevel] org.apache.felix.hc.core.impl.executor.HealthCheckExecutorImpl HealthCheckExecutor shutdown at start level 5
+05.04.2024 21:12:14.189 *INFO* [FelixStartLevel] org.eclipse.jetty.server.AbstractConnector Stopped ServerConnector@768a7752{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+05.04.2024 21:12:14.189 *INFO* [FelixStartLevel] org.eclipse.jetty.server.session node0 Stopped scavenging
+05.04.2024 21:12:14.190 *INFO* [FelixStartLevel] org.eclipse.jetty.server.handler.ContextHandler Stopped o.e.j.s.ServletContextHandler@106bfcf8{/,null,STOPPED}
+05.04.2024 21:12:14.195 *INFO* [FelixStartLevel] org.apache.sling.installer.core.impl.OsgiInstallerImpl Apache Sling OSGi Installer Service stopped.

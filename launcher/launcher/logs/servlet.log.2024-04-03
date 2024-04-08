@@ -1,0 +1,2 @@
+03.04.2024 15:32:28.051 *INFO* [[0:0:0:0:0:0:0:1] [1712151148050] GET /demo/home/welcome.hello.html HTTP/1.1] demo.servlet.ByResourceTypeServlet Hello World Servlet
+03.04.2024 15:33:20.420 *INFO* [[0:0:0:0:0:0:0:1] [1712151200419] GET /hello-world-servlet HTTP/1.1] demo.servlet.ByPathServlet Hello World Servlet

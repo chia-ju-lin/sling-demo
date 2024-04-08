@@ -1,0 +1,13 @@
+// Configuration created by Apache Sling File Installer
+{
+  "hc.tags":[
+    "systemalive"
+  ],
+  "services.list":[
+    "org.apache.sling.jcr.api.SlingRepository",
+    "org.apache.sling.engine.auth.Authenticator",
+    "org.apache.sling.api.resource.ResourceResolverFactory",
+    "org.apache.sling.api.servlets.ServletResolver",
+    "javax.script.ScriptEngineManager"
+  ]
+}

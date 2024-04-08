@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>demo - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="createdBy">chia-ju.lin</entry>
+<entry key="created">2024-04-08T09:58:19.367+02:00</entry>
+<entry key="groupId">demo</entry>
+<entry key="name">demo-all</entry>
+<entry key="description">demo - demo: All-in-one deployment content package</entry>
+<entry key="artifactId">all</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">demo</entry>
+</properties>

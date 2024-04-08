@@ -1,0 +1,7 @@
+// Configuration created by Apache Sling File Installer
+{
+  "user.mapping":[
+    "org.apache.sling.event=[sling-event]",
+    "org.apache.sling.event.dea=[sling-event]"
+  ]
+}

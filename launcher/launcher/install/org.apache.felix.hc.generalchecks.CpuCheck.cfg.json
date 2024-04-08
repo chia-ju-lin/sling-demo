@@ -1,0 +1,8 @@
+// Configuration created by Apache Sling File Installer
+{
+  "hc.tags":[
+    "cpu",
+    "system-resources"
+  ],
+  "cpuPercentageThresholdWarn":95
+}

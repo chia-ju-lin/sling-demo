@@ -1,0 +1,9 @@
+// Configuration created by Apache Sling File Installer
+{
+  "hc.tags":[
+    "memory",
+    "system-resources"
+  ],
+  "heapUsedPercentageThresholdCritical":100,
+  "heapUsedPercentageThresholdWarn":95
+}

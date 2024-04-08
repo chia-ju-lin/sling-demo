@@ -1,0 +1,13 @@
+// Configuration created by Apache Sling File Installer
+{
+  "osgi.http.whiteboard.filter.regex":"(?!/system/).*",
+  "avoid404DuringStartup":true,
+  "service.ranking:Integer":2147483647,
+  "includeExecutionResult":false,
+  "osgi.http.whiteboard.context.select":"(osgi.http.whiteboard.context.name=*)",
+  "tags":[
+    "systemalive"
+  ],
+  "autoDisableFilter":true,
+  "responseTextFor503":"classpath:org.apache.sling.starter.content:startup/index.html"
+}

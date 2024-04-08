@@ -1,0 +1,7 @@
+// Configuration created by Apache Sling File Installer
+{
+  "groupsPath":"/home/groups",
+  "defaultDepth":"1",
+  "importBehavior":"besteffort",
+  "usersPath":"/home/users"
+}
